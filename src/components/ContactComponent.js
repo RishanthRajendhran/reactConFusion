@@ -26,6 +26,7 @@ class Contact extends Component {
 
     render() {
         return(
+        <>
             <div className="container">
                 <div className="row">
                         <Breadcrumb>
@@ -201,6 +202,7 @@ class Contact extends Component {
                     </div>
                 </div>
             </div>
+        </>
         );
     };
 }
